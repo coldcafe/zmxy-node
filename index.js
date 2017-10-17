@@ -1,6 +1,5 @@
 const axios = require('axios');
 const crypto = require('crypto');
-const fs = require('fs');
 const random = (len = 16) => {
     const digits = '0123456789abcdefghijklmnopqrstuvwxyz';
     let str = '';
